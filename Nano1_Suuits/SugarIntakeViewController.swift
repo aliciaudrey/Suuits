@@ -22,7 +22,7 @@ class SugarIntakeViewController: UIViewController {
     @IBAction func addButtonTapped(_ sender: Any) {
         UserDefaults.standard.setValue(mealNameField.text, forKey: "mealName")
         UserDefaults.standard.setValue(sugarAmountField.text, forKey: "sugarAmount")
-        var sugarEaten = UserDefaults.standard.integer(forKey: "sugarAmount")
+        let sugarEaten = UserDefaults.standard.integer(forKey: "sugarAmount")
         var sugarToday =
         UserDefaults.standard.integer(forKey: "dailySugar")
         sugarToday += sugarEaten
