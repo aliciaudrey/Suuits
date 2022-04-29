@@ -14,6 +14,14 @@
 		762E2070281AED03009F73FE /* Nano1_Suuits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 762E206E281AED03009F73FE /* Nano1_Suuits.xcdatamodeld */; };
 		762E2072281AED04009F73FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762E2071281AED04009F73FE /* Assets.xcassets */; };
 		762E2075281AED04009F73FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762E2073281AED04009F73FE /* LaunchScreen.storyboard */; };
+		762E207D281AF46C009F73FE /* UICorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E207C281AF46C009F73FE /* UICorner.swift */; };
+		762E207F281AF53A009F73FE /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E207E281AF53A009F73FE /* CircularProgressView.swift */; };
+		762E2081281AF5DF009F73FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E2080281AF5DF009F73FE /* HomeViewController.swift */; };
+		762E2083281AF60A009F73FE /* MyGoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E2082281AF60A009F73FE /* MyGoalsViewController.swift */; };
+		762E2085281BA005009F73FE /* SugarIntakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E2084281BA005009F73FE /* SugarIntakeViewController.swift */; };
+		762E2087281BAAFE009F73FE /* BoardingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E2086281BAAFE009F73FE /* BoardingScreenViewController.swift */; };
+		764F82FF281BC13700AF1360 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764F82FE281BC13700AF1360 /* SummaryViewController.swift */; };
+		76D796C4281BCE340049790E /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D796C3281BCE340049790E /* SummaryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		762E2071281AED04009F73FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762E2074281AED04009F73FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		762E2076281AED04009F73FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762E207C281AF46C009F73FE /* UICorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICorner.swift; sourceTree = "<group>"; };
+		762E207E281AF53A009F73FE /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		762E2080281AF5DF009F73FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		762E2082281AF60A009F73FE /* MyGoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoalsViewController.swift; sourceTree = "<group>"; };
+		762E2084281BA005009F73FE /* SugarIntakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarIntakeViewController.swift; sourceTree = "<group>"; };
+		762E2086281BAAFE009F73FE /* BoardingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingScreenViewController.swift; sourceTree = "<group>"; };
+		764F82FE281BC13700AF1360 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		76D796C3281BCE340049790E /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,18 @@
 		762E2064281AED03009F73FE /* Nano1_Suuits */ = {
 			isa = PBXGroup;
 			children = (
+				762E2086281BAAFE009F73FE /* BoardingScreenViewController.swift */,
 				762E2065281AED03009F73FE /* AppDelegate.swift */,
 				762E2067281AED03009F73FE /* SceneDelegate.swift */,
 				762E2069281AED03009F73FE /* ViewController.swift */,
 				762E206B281AED03009F73FE /* Main.storyboard */,
+				76D796C3281BCE340049790E /* SummaryCell.swift */,
+				764F82FE281BC13700AF1360 /* SummaryViewController.swift */,
+				762E2084281BA005009F73FE /* SugarIntakeViewController.swift */,
+				762E2080281AF5DF009F73FE /* HomeViewController.swift */,
+				762E2082281AF60A009F73FE /* MyGoalsViewController.swift */,
+				762E207E281AF53A009F73FE /* CircularProgressView.swift */,
+				762E207C281AF46C009F73FE /* UICorner.swift */,
 				762E2071281AED04009F73FE /* Assets.xcassets */,
 				762E2073281AED04009F73FE /* LaunchScreen.storyboard */,
 				762E2076281AED04009F73FE /* Info.plist */,
@@ -142,8 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				762E206A281AED03009F73FE /* ViewController.swift in Sources */,
+				762E2083281AF60A009F73FE /* MyGoalsViewController.swift in Sources */,
 				762E2066281AED03009F73FE /* AppDelegate.swift in Sources */,
+				762E2085281BA005009F73FE /* SugarIntakeViewController.swift in Sources */,
+				764F82FF281BC13700AF1360 /* SummaryViewController.swift in Sources */,
+				762E2087281BAAFE009F73FE /* BoardingScreenViewController.swift in Sources */,
+				762E207D281AF46C009F73FE /* UICorner.swift in Sources */,
 				762E2070281AED03009F73FE /* Nano1_Suuits.xcdatamodeld in Sources */,
+				762E207F281AF53A009F73FE /* CircularProgressView.swift in Sources */,
+				762E2081281AF5DF009F73FE /* HomeViewController.swift in Sources */,
+				76D796C4281BCE340049790E /* SummaryCell.swift in Sources */,
 				762E2068281AED03009F73FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
