@@ -11,12 +11,17 @@ public var i: Int = 1
 
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        2
-    }
+        if UserDefaults.standard.integer(forKey: "count") == 1 {
+            return 1
+        }else {
+            return 0
+
+        }}
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = (tableView.dequeueReusableCell(withIdentifier: "SummaryCellID", for: indexPath) as? SummaryCell)!
         cell.SummaryLabel.text = UserDefaults.standard.string(forKey: "mealName")
+        cell.sugarAmount.text = "\(UserDefaults.standard.integer(forKey: "sugarAmount"))g "
         return cell
     }
     

@@ -10,6 +10,7 @@ import UIKit
 class SummaryCell: UITableViewCell {
 
     @IBOutlet weak var SummaryLabel: UILabel!
+    @IBOutlet weak var sugarAmount: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

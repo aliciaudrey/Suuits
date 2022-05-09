@@ -27,13 +27,14 @@ class SugarIntakeViewController: UIViewController {
         UserDefaults.standard.integer(forKey: "dailySugar")
         sugarToday += sugarEaten
         UserDefaults.standard.setValue(sugarToday, forKey: "dailySugar")
+        UserDefaults.standard.setValue(1, forKey: "count")
         clearField()
         showAlert()
     }
     private func showAlert() {
 
         // create the alert
-        let alert = UIAlertController(title: "Message", message: "Your goal has been set", preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: "Message", message: "Your sugar intake has been added", preferredStyle: UIAlertController.Style.alert)
         
         // add an action (button)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
